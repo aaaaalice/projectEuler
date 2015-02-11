@@ -1,0 +1,15 @@
+Q6
+stotal = 0
+total = 0
+for i in range (1,101):
+    square = i**2
+    stotal = stotal + square
+print (stotal)
+
+for i in range (1,101):
+    total = total + i
+print (total)
+
+print (total**2 - stotal)
+    
+
