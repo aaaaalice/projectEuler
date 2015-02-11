@@ -1,0 +1,18 @@
+Q1
+
+number = 1
+total = 0
+while number < 1000:
+    if number % 3 > 0:
+        number = number
+    else:
+        threes = number
+        total = total + threes
+        number = number + 1 
+    if number % 5 > 0:
+        number = number + 1
+    else:
+        fives = number
+        total = total + fives
+        number = number + 1
+print (total-1000)
